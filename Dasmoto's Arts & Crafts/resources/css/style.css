@@ -1,0 +1,107 @@
+body{
+  font-family: helvetica;
+  background-image: url(https://2.bp.blogspot.com/-BsL9gRE80Ug/U0OgeWbbxtI/AAAAAAAAF-w/teXrzw-TBcU/s1600/nacre-background-tile.jpg);
+}
+h1{
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg);
+  border: 15px solid khaki;
+  border-radius: 15px;
+  padding: 20px;
+}
+h2{
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+h3{
+  font-weight: bold;
+}
+.price {
+  font-weight: bold;
+  color: blue;
+}
+
+
+#brushes {
+    width: 500px;
+    border: 25px solid khaki;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+    width: 50%;
+    background-color: white;
+}
+
+#frames {
+    width: 500px;
+    border: 25px solid khaki;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+    width: 50%;
+    background-color: white;
+}
+
+#paint {
+    width: 500px;
+    border: 25px solid khaki;
+    border-radius: 15px;
+    padding: 25px;
+    margin: 50px auto;
+    width: 50%;
+    background-color: white;
+}
+
+/*div color headers */
+.brushes {
+  background-color: mediumspringgreen;
+  border-radius: 5px;
+}
+.frames {
+  background-color: lightcoral;
+  border-radius: 5px;
+}
+.paint {
+  background-color: skyblue;
+  border-radius: 5px;
+}
+
+/* the nav bar - i need help figuring out how to code this properly. i want the buttons to be spaced evenly, be centered, and to have the entire bar highlight on mouseover like a true naivagtional bar should, if that makes sense. i kinda just took a stab at it but it doesn't look right, thanks*/
+nav{
+  margin: auto;
+  width: 50%;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  height: 20px;
+  margin: 5%;
+  background-color: khaki;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+li{
+  display: inline;
+  position: relative;
+  margin: 10%;
+  text-decoration: none;
+  text-align: center;
+  border-left: 1px solid black;
+}
+li:first-child {
+    border-left: none;
+}
+a{
+  padding: 4px;
+}
+li a:hover {
+    background-color: brown;
+    color: white;
+}
